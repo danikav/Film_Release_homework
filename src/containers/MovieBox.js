@@ -35,7 +35,9 @@ const MovieBox = () => {
       return(
         <>
           <MovieList id="movieList" movies={movies}/>
-            <button onclick="location.href = 'www.imdb.com/calendar/?region=gb';">View Upcoming Releases</button>
+            <button><a href='http://www.imdb.com/calendar/?region=gb'>
+        View more upcoming releases
+      </a></button>
         </>
       );
   }
